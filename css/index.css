@@ -1,0 +1,21 @@
+* { margin:0; padding:0;}
+body { background:#ffd7ff; }
+header { background:#ac3368; width:960px; height:200px; margin:0 auto; text-align:center; padding-top:20px; }
+header #xiao {margin-top:30px; font-size:70px; font-weight:bold; text-shadow:5px 5px 10px rgba(0,0,0,0.9); }
+header #xiaol { font-size:30px; font-weight:bold; text-shadow:2px 2px 3px rgba(0,0,0,0.8); }
+header #date { margin:10px auto; }
+nav { background:#ee856e; width:960px; height:40px; margin:0 auto; }
+nav a{ margin-left:78px; font-size:18px; font-weight:bold; line-height:40px; color:#333;  text-decoration:none; transition:0.3s;}
+nav a:hover { color:aqua;}
+section { margin:0 auto; width:960px;  }
+section #news {position:relative; width:460px; height:390px; float:left; }
+section #news #newsB { display:block; width:460px; height:40px; position:absolute; top:0px; left:0px; font-size:24px; font-weight:bold; line-height:40px; color:#666; text-align:center; background:rgba(0,0,0,0.8); }
+section #news #newsZ { display:block; width:460px; height:300px; position:absolute; top:60px; left:0px; font-size:16px; text-indent:2em; line-height:1.5em; color:#333; text-align:left; background:rgba(255,255,255,0.4); }
+section #zhongs { position:relative; width:500px; height:390px; color:#ddd; background:#b33032; float:right; }
+section #zhongs #zhong { position:absolute; top:0px; left:50px; width:400px; height:360px; background:rgba(255,51,7,0.4); }
+section #zhongs #zhong h1 { font-size:24px; text-align:center; }
+section #zhongs #zhong ul { margin-left:30px; margin-top:30px; list-style:none; text-align:left;  }
+section #zhongs #zhong ul li { line-height:30px; }
+section #flash { clear:both; width:960px; height:120px; background:aqua;} 
+footer { width:960px; height:100px; background:#000; margin:0 auto; text-align:center; font-size:12px;color:#fff; }
+footer p {padding-top:30px;}
